@@ -1,0 +1,1111 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Layyinul Mushthofa | E-Portfolio Seminar Pendidikan</title>
+    <meta name="description" content="E-Portfolio Seminar Pendidikan - Muhammad Layyinul Mushthofa, S.Pd, PPG Calon Guru Universitas Negeri Yogyakarta (UNY)&copy; 2026." />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/Logo Uny outlitne.png" type="image/x-icon" />
+
+    <!-- Google Fonts: Plus Jakarta Sans for High-End Editorial Clarity -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+
+    <!-- FontAwesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+    <!-- Custom CSS (Luxury Deep Navy & Gold Theme with Dynamic Motion Interactions) -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- SIDE SCROLL PROGRESS BAR (Petunjuk alur progress scroll halus) -->
+    <div class="side-scroll-progress-bar" id="sideProgressBar"></div>
+
+    <!-- PAGE WRAPPER (Frame mewah sesuai tata letak referensi) -->
+    <div class="page-wrapper">
+      <!-- ==========================================================================
+           1. HERO CONTAINER (Deep Navy Card dengan 3D Parallax & Ambient Glint)
+           ========================================================================== -->
+      <section class="hero-container" id="home">
+        <!-- Ambient Radial Glow Effect -->
+        <div class="hero-glow-bg"></div>
+
+        <!-- Ambient Gold Shimmer Glints (Efek pendaran cahaya bergerak lembut) -->
+        <div class="glint-sparkle glint-1"></div>
+        <div class="glint-sparkle glint-2"></div>
+        <div class="glint-sparkle glint-3"></div>
+        <div class="glint-sparkle glint-4"></div>
+
+        <!-- 3D Parallax Watermark: Topi Toga Wisuda / Lambang Pendidikan -->
+        <div class="hero-watermark" id="heroWatermark">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+
+        <!-- NAVBAR -->
+        <header class="hero-navbar">
+          <!-- Logo & Brand Name -->
+          <a href="#home" class="nav-brand">
+            <img src="images/Logo Uny outlitne.png" alt="Logo UNY" class="brand-logo-img" />
+            <span class="brand-name">E-Portofolio</span>
+          </a>
+
+          <!-- Pill-Shaped Centered Navigation Bar -->
+          <nav class="nav-pill-center" id="mainNav">
+            <a href="visi.html" class="nav-link">Visi Pribadi</a>
+            <a href="refleksi1.html" class="nav-link">Refleksi Sem 1</a>
+            <a href="refleksi2.html" class="nav-link">Refleksi Sem 2</a>
+            <a href="karya.html" class="nav-link">Karya Inovasi</a>
+          </nav>
+
+          <!-- Right Action: Gold CTA Pill Button with Micro-interactions -->
+          <div class="nav-cta-wrap">
+            <a href="https://e-protofolio-ppg-layyinul.vercel.app/" target="_blank" class="btn-gold nav-cta-btn">
+              <span>Portofolio PPL</span>
+              <span class="btn-gold-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            </a>
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-nav-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </header>
+
+        <!-- Mobile Navigation Drawer -->
+        <div class="mobile-menu-drawer" id="mobileDrawer">
+          <a href="visi.html" onclick="closeMobileMenu()">Visi Pribadi</a>
+          <a href="refleksi1.html" onclick="closeMobileMenu()">Refleksi Sem 1</a>
+          <a href="refleksi2.html" onclick="closeMobileMenu()">Refleksi Sem 2</a>
+          <a href="karya.html" onclick="closeMobileMenu()">Karya Inovasi</a>
+          <a href="https://e-protofolio-ppg-layyinul.vercel.app/" target="_blank">Lihat Portofolio PPL Ã¢â€ â€”</a>
+        </div>
+
+        <!-- HERO MAIN BODY GRID -->
+        <div class="hero-body-grid">
+          <!-- Left Column: Pill Badge & Bold Headline -->
+          <div class="hero-col-left">
+            <div class="badge-pill badge-pill-dark"><i class="fa-solid fa-award"></i> PPG CALON GURU PJOK 2026</div>
+            <h1>
+              Mitra Inovasi<br />
+              Pendidikan Jasmani<br />
+              <span class="gold">Masa Depan</span>
+            </h1>
+            <p class="hero-subtext">Transformasi diri menjadi pendidik PJOK profesional masa depan melalui refleksi mendalam, penguasaan pedagogik keolahragaan modern, dan pembelajaran aktif yang menyenangkan.</p>
+          </div>
+
+          <!-- Center Column: Prominent Portrait Photo with 3D Parallax & Motion Cue -->
+          <div class="hero-col-center">
+            <div class="hero-person-wrap" id="heroPersonWrap">
+              <img src="images/Hero Foto Half.png" alt="Muhammad Layyinul Mushthofa, S.Pd" class="hero-person-img" id="heroPersonImg" />
+              <!-- Motion Cue Anotasi: 3D Parallax Depth -->
+              <div class="hero-parallax-cue">
+                <span class="pulse-dot"></span>
+                <span>EFEK 3D PARALAKS AKTIF</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Glassmorphism Credential Card & Gold Action -->
+          <div class="hero-col-right">
+            <!-- Review / Credential Card -->
+            <div class="hero-rating-card">
+              <div class="rating-header">
+                <div class="rating-social-icons">
+                  <i class="fa-solid fa-graduation-cap icon-uny" title="UNY"></i>
+                  <i class="fa-brands fa-google icon-google" title="Google Certified Educator Ready"></i>
+                </div>
+                <div class="stars-score">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span>4.9</span>
+                </div>
+              </div>
+              <p class="rating-desc">Kompetensi pedagogik, kebugaran jasmani, dan pembelajaran berdiferensiasi teruji dalam implementasi Kurikulum Merdeka di sekolah mitra.</p>
+            </div>
+
+            <!-- Action Button with Hover Motion Cue -->
+            <div class="hero-right-action-wrap">
+              <div class="motion-annotation"><i class="fa-solid fa-arrow-pointer"></i> SOROT UNTUK INTERAKSI</div>
+              <a href="karya.html" class="btn-gold">
+                <span>Eksplorasi Karya</span>
+                <span class="btn-gold-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- HERO STATS BAR (ANIMASI MENGHITUNG NAIK / STAT COUNTER) -->
+        <div class="hero-stats-bar" id="statsBar">
+          <div class="stats-bar-header">
+            <div class="motion-annotation"><span class="pulse-dot"></span> ANIMASI MENGHITUNG NAIK (COUNT UP)</div>
+          </div>
+
+          <div class="stats-grid">
+            <!-- Stat 1 -->
+            <div class="stat-item">
+              <div class="stat-icon"><i class="fa-solid fa-award"></i></div>
+              <div>
+                <div class="stat-number"><span class="counter-number" data-target="10">0</span><span class="stat-suffix">+</span></div>
+                <div class="stat-label">Tahun Dedikasi &amp; Studi</div>
+              </div>
+            </div>
+
+            <!-- Stat 2 -->
+            <div class="stat-item">
+              <div class="stat-icon"><i class="fa-solid fa-chart-line"></i></div>
+              <div>
+                <div class="stat-number"><span class="counter-number" data-target="95">0</span><span class="stat-suffix">%</span></div>
+                <div class="stat-label">Tingkat Ketercapaian / Kinerja</div>
+              </div>
+            </div>
+
+            <!-- Stat 3 -->
+            <div class="stat-item">
+              <div class="stat-icon"><i class="fa-solid fa-book-open"></i></div>
+              <div>
+                <div class="stat-number"><span class="counter-number" data-target="250">0</span><span class="stat-suffix">+</span></div>
+                <div class="stat-label">Jam Praktik &amp; Pembelajaran PJOK</div>
+              </div>
+            </div>
+
+            <!-- Stat 4 -->
+            <div class="stat-item">
+              <div class="stat-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <div>
+                <div class="stat-number"><span class="counter-number" data-target="100">0</span><span class="stat-suffix">%</span></div>
+                <div class="stat-label">Kompetensi Guru Terstandarisasi</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SCROLL DOWN FLOW CUE (SCROLL V) -->
+        <div class="hero-scroll-cue-wrap">
+          <a href="#about" class="hero-scroll-cue"> <i class="fa-solid fa-chevron-down"></i> GULIR KE BAWAH </a>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           2. ABOUT / PHILOSOPHY SECTION (Pure White Card Background)
+           ========================================================================== -->
+      <section class="about-section reveal-cascade" id="about">
+        <div class="about-grid">
+          <!-- Left Column -->
+          <div class="about-col-left reveal-cascade delay-1">
+            <div class="badge-pill badge-pill-light">TENTANG SAYA</div>
+            <h2>
+              Berakar Integritas,<br />
+              Tumbuh Melalui Inovasi
+            </h2>
+          </div>
+
+          <!-- Right Column -->
+          <div class="about-col-right reveal-cascade delay-2">
+            <p class="about-lead-text">Saya adalah calon pendidik profesional bidang Pendidikan Jasmani, Olahraga, dan Kesehatan (PJOK) yang berdedikasi menciptakan pembelajaran gerak yang bermakna, menyenangkan, inklusif, dan berpusat pada peserta didik.</p>
+            <p class="about-body-text">
+              Berlandaskan filosofi pendidikan Ki Hadjar Dewantara, saya memandang pendidikan jasmani sebagai wahana holistik yang memadukan olah rasa, olah pikir, olah raga, dan olah karsa. Melalui perkuliahan PPG Calon Guru di
+              Universitas Negeri Yogyakarta serta praktik langsung di sekolah mitra, saya mengasah kemampuan perancangan pembelajaran berdiferensiasi, asesmen motorik, dan pembinaan karakter sportivitas peserta didik.
+            </p>
+            <div class="about-action-wrap">
+              <a href="https://e-protofolio-ppg-layyinul.vercel.app/" target="_blank" class="btn-gold">
+                <span>Lihat Portofolio PPL</span>
+                <span class="btn-gold-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+              </a>
+              <div class="motion-annotation"><i class="fa-solid fa-bolt"></i> TRANSISI TAMPIL BERTINGKAT</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           3. SERVICES / JOURNEY SECTION (CAROUSEL DRAG & ACTIVE CARD ELEVATION)
+           ========================================================================== -->
+      <section class="services-section reveal-cascade" id="services">
+        <!-- Section Header -->
+        <div class="services-header">
+          <div class="services-header-left reveal-cascade delay-1">
+            <div class="badge-pill badge-pill-dark"><i class="fa-solid fa-compass"></i> KOMPETENSI &amp; PERJALANAN PPG</div>
+            <h2>
+              Keahlian &amp;<br />
+              <span class="gold">Kompetensi Teruji</span>
+            </h2>
+          </div>
+
+          <div class="services-header-right reveal-cascade delay-2">
+            <p>Rangkaian penguasaan pedagogik keolahragaan, kurikulum PJOK adaptif, dan penerapan pembelajaran gerak yang teruji di lingkungan pendidikan nyata.</p>
+            <div class="services-controls-bar">
+              <div class="motion-annotation"><i class="fa-solid fa-arrows-left-right"></i> GESER UNTUK EKSPLORASI</div>
+              <div class="carousel-nav-arrows">
+                <button class="nav-arrow-btn nav-arrow-prev" id="prevCardBtn" aria-label="Sebelumnya">
+                  <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button class="nav-arrow-btn nav-arrow-next" id="nextCardBtn" aria-label="Selanjutnya">
+                  <i class="fa-solid fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cards Slider / Draggable Grid (4 distinct cards) -->
+        <div class="services-cards-grid" id="servicesGrid">
+          <!-- Card 1: White Card -->
+          <div class="service-card">
+            <div>
+              <div class="service-card-tag">FONDASI PEDAGOGIK</div>
+              <h3>Filosofi &amp; Karakter Peserta Didik</h3>
+              <div class="service-card-image-wrap">
+                <img src="images/baner observasi.jpeg" alt="Observasi Lingkungan Belajar" />
+              </div>
+              <p class="service-card-desc">Membangun fondasi pemikiran kritis Ki Hadjar Dewantara, asesmen diagnostik kesiapan fisik &amp; motorik, serta penyesuaian materi gerak berbasis keragaman siswa.</p>
+            </div>
+            <div class="service-card-footer">
+              <span class="card-hover-focus-pill"><i class="fa-solid fa-sparkles"></i> Fokus Terangkat</span>
+              <a href="refleksi1.html" class="btn-circle-arrow" title="Pelajari Detail">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2: Active Featured Dark Card (Matching Center Style in Reference) -->
+          <div class="service-card service-card-featured">
+            <!-- Dynamic DRAG / SWIPE Pill Indicator -->
+            <div class="drag-indicator-pill"><i class="fa-solid fa-arrows-left-right"></i> GESER &gt;</div>
+            <div>
+              <div class="service-card-tag">PRAKTIK LAPANGAN NYATA</div>
+              <h3>Praktik Pembelajaran PJOK di Sekolah Mitra</h3>
+              <div class="service-card-image-wrap">
+                <img src="images/asesmen basket.jpeg" alt="Praktik Mengajar PJOK" />
+              </div>
+              <p class="service-card-desc">Implementasi modul ajar PJOK berdiferensiasi, manajemen keselamatan aktivitas fisik, dan pengelolaan dinamika kelas olahraga bersama bimbingan Guru Pamong dan DPL.</p>
+            </div>
+            <div class="service-card-footer">
+              <span class="card-hover-focus-pill"><i class="fa-solid fa-circle-check"></i> Sorotan Aktif</span>
+              <a href="https://e-protofolio-ppg-layyinul.vercel.app/" target="_blank" class="btn-circle-arrow btn-circle-arrow-dark" title="Buka Detail Portofolio PPL">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 3: White Card -->
+          <div class="service-card">
+            <div>
+              <div class="service-card-tag">SOSIAL EMOSIONAL &amp; SPORTIVITAS</div>
+              <h3>Pembelajaran Sosial Emosional (PSE)</h3>
+              <div class="service-card-image-wrap">
+                <img src="images/praktik.jpeg" alt="Pembelajaran Sosial Emosional" />
+              </div>
+              <p class="service-card-desc">Mengintegrasikan 5 kompetensi CASEL, sportivitas, disiplin diri, empati, dan kerja sama tim dalam berbagai aktivitas fisik dan permainan olahraga.</p>
+            </div>
+            <div class="service-card-footer">
+              <span class="card-hover-focus-pill"><i class="fa-solid fa-sparkles"></i> Fokus Terangkat</span>
+              <a href="refleksi2.html" class="btn-circle-arrow" title="Pelajari Detail">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 4: White Card -->
+          <div class="service-card">
+            <div>
+              <div class="service-card-tag">INOVASI PEMBELAJARAN PJOK</div>
+              <h3>Inovasi Media &amp; Asesmen Gerak PJOK</h3>
+              <div class="service-card-image-wrap">
+                <img src="images/Mengawas ASTS.jpeg" alt="Inovasi PJOK" />
+              </div>
+              <p class="service-card-desc">Pemanfaatan media visual interaktif, asesmen digital unjuk kerja gerak, dan modifikasi permainan olahraga yang inklusif untuk semua siswa.</p>
+            </div>
+            <div class="service-card-footer">
+              <span class="card-hover-focus-pill"><i class="fa-solid fa-sparkles"></i> Fokus Terangkat</span>
+              <a href="karya.html" class="btn-circle-arrow" title="Pelajari Detail">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           4. DAFTAR KARYA & REFLEKSI (PROJECTS / WORKS LIST)
+           ========================================================================== -->
+      <section class="works-section reveal-cascade" id="works">
+        <!-- Section Header -->
+        <div class="works-header">
+          <div class="works-header-left reveal-cascade delay-1">
+            <div class="badge-pill badge-pill-light">DOKUMEN &amp; ARTEFAK PEMBELAJARAN</div>
+            <h2>
+              Daftar Karya &amp;<br />
+              Refleksi Pembelajaran
+            </h2>
+          </div>
+
+          <div class="works-header-right reveal-cascade delay-2">
+            <p>Koleksi artefak pembelajaran, perangkat ajar PJOK, refleksi perkuliahan, dan inovasi pendidikan jasmani yang dihasilkan selama program PPG.</p>
+            <div>
+              <a href="https://e-protofolio-ppg-layyinul.vercel.app/" target="_blank" class="btn-gold">
+                <span>Lihat Portofolio PPL</span>
+                <span class="btn-gold-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Works Table / List View -->
+        <div class="works-table-container">
+          <!-- Table Header -->
+          <div class="works-table-head">
+            <div>Daftar Dokumen / Karya</div>
+            <div>Kategori</div>
+            <div>Periode</div>
+            <div>Tautan</div>
+          </div>
+
+          <!-- Table Rows List with Cascade Stagger -->
+          <div class="works-list">
+            <!-- Row 1: Visi Pribadi -->
+            <div class="work-row-item reveal-cascade delay-1">
+              <div class="work-title">
+                <i class="fa-solid fa-compass text-gold"></i>
+                <span>1. Visi Pribadi</span>
+              </div>
+              <div>
+                <span class="work-category-badge">Visi Guru</span>
+              </div>
+              <div class="work-date">Tahun 2026</div>
+              <div class="work-action">
+                <a href="visi.html" class="btn-circle-arrow" title="Buka Visi Pribadi">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Row 2: Refleksi Mata Kuliah PPG Calon Guru Semester 1 -->
+            <div class="work-row-item reveal-cascade delay-2">
+              <div class="work-title">
+                <i class="fa-solid fa-book-open text-gold"></i>
+                <span>2. Refleksi Mata Kuliah PPG Calon Guru Semester 1</span>
+              </div>
+              <div>
+                <span class="work-category-badge">Semester 1</span>
+              </div>
+              <div class="work-date">Semester Ganjil</div>
+              <div class="work-action">
+                <a href="refleksi1.html" class="btn-circle-arrow" title="Buka Refleksi Semester 1">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Row 3: Refleksi Mata Kuliah PPG Calon Guru Semester 2 -->
+            <div class="work-row-item reveal-cascade delay-3">
+              <div class="work-title">
+                <i class="fa-solid fa-graduation-cap text-gold"></i>
+                <span>3. Refleksi Mata Kuliah PPG Calon Guru Semester 2</span>
+              </div>
+              <div>
+                <span class="work-category-badge">Semester 2</span>
+              </div>
+              <div class="work-date">Semester Genap</div>
+              <div class="work-action">
+                <a href="refleksi2.html" class="btn-circle-arrow" title="Buka Refleksi Semester 2">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Row 4: Karya Inovasi -->
+            <div class="work-row-item reveal-cascade delay-4">
+              <div class="work-title">
+                <i class="fa-solid fa-lightbulb text-gold"></i>
+                <span>4. Karya Inovasi</span>
+              </div>
+              <div>
+                <span class="work-category-badge">Inovasi PJOK</span>
+              </div>
+              <div class="work-date">Tahun 2026</div>
+              <div class="work-action">
+                <a href="karya.html" class="btn-circle-arrow" title="Buka Karya Inovasi">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           5. DAFTAR MATA KULIAH SEMESTER 1 & SEMESTER 2 (COURSES SECTION)
+           ========================================================================== -->
+      <section class="courses-section reveal-cascade" id="courses">
+        <!-- Section Header -->
+        <div class="courses-header">
+          <div class="courses-header-left reveal-cascade delay-1">
+            <div class="badge-pill badge-pill-dark"><i class="fa-solid fa-graduation-cap"></i> STRUKTUR KURIKULUM PPG</div>
+            <h2>
+              Daftar Mata Kuliah<br />
+              <span class="gold text-gold">Semester 1 &amp; Semester 2</span>
+            </h2>
+          </div>
+
+          <div class="courses-header-right reveal-cascade delay-2">
+            <p>Rangkaian program perkuliahan dan praktik klinis Program PPG Calon Guru Bidang Studi PJOK untuk membentuk pendidik profesional yang berdaya saing global dan berkarakter budi pekerti.</p>
+          </div>
+        </div>
+
+        <!-- Semester Filter Tabs -->
+        <div class="courses-tabs-wrap reveal-cascade delay-2">
+          <button class="course-tab-btn active" data-target-semester="all">
+            <i class="fa-solid fa-layer-group"></i>
+            <span>Semua Mata Kuliah</span>
+            <span class="tab-count">11</span>
+          </button>
+          <button class="course-tab-btn" data-target-semester="1">
+            <i class="fa-solid fa-bookmark"></i>
+            <span>Semester 01</span>
+            <span class="tab-count">6 MK</span>
+          </button>
+          <button class="course-tab-btn" data-target-semester="2">
+            <i class="fa-solid fa-chart-line"></i>
+            <span>Semester 02</span>
+            <span class="tab-count">5 MK</span>
+          </button>
+        </div>
+
+        <!-- Courses Cards Grid -->
+        <div class="courses-grid" id="coursesGrid">
+          <!-- SEMESTER 01 -->
+          <!-- 01: Filosofi Pendidikan dan Pendidikan Nilai -->
+          <div class="course-card reveal-cascade delay-1" data-semester="1">
+            <div>
+              <div class="course-card-top">
+                <span class="course-number">01</span>
+                <div class="course-badges">
+                  <span class="course-tag">PHILOSOPHY</span>
+                  <span class="course-sem-badge">SEM 01</span>
+                </div>
+              </div>
+              <div class="course-body">
+                <div class="course-body-header">
+                  <div class="course-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+                  <h3 class="course-title">Filosofi Pendidikan dan Pendidikan Nilai</h3>
+                </div>
+                <p class="course-desc">Memahami landasan filosofis pendidikan serta pentingnya nilai dalam proses pendidikan sebagai dasar dalam membentuk pembelajaran.</p>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <a href="refleksi1.html" class="course-footer-link">
+                <span>Refleksi Semester 1</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- 02: Pembelajaran Mendalam dan Asesmen Dasar -->
+          <div class="course-card reveal-cascade delay-2" data-semester="1">
+            <div>
+              <div class="course-card-top">
+                <span class="course-number">02</span>
+                <div class="course-badges">
+                  <span class="course-tag">LEARNING</span>
+                  <span class="course-sem-badge">SEM 01</span>
+                </div>
+              </div>
+              <div class="course-body">
+                <div class="course-body-header">
+                  <div class="course-icon"><i class="fa-solid fa-brain"></i></div>
+                  <h3 class="course-title">Pembelajaran Mendalam dan Asesmen Dasar</h3>
+                </div>
+                <p class="course-desc">Mempelajari konsep pembelajaran mendalam serta dasar-dasar asesmen perkembangan dan capaian belajar peserta didik.</p>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <a href="refleksi1.html" class="course-footer-link">
+                <span>Refleksi Semester 1</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- 03: Pemahaman Tentang Peserta Didik -->
+          <div class="course-card reveal-cascade delay-3" data-semester="1">
+            <div>
+              <div class="course-card-top">
+                <span class="course-number">03</span>
+                <div class="course-badges">
+                  <span class="course-tag">PEDAGOGY</span>
+                  <span class="course-sem-badge">SEM 01</span>
+                </div>
+              </div>
+              <div class="course-body">
+                <div class="course-body-header">
+                  <div class="course-icon"><i class="fa-solid fa-users-viewfinder"></i></div>
+                  <h3 class="course-title">Pemahaman Tentang Peserta Didik</h3>
+                </div>
+                <p class="course-desc">Memahami karakteristik, kebutuhan, potensi, dan keberagaman peserta didik sebagai dasar merancang pembelajaran.</p>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <a href="refleksi1.html" class="course-footer-link">
+                <span>Refleksi Semester 1</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- 04: Pembelajaran Kreatif Inovatif -->
+          <div class="course-card reveal-cascade delay-1" data-semester="1">
+            <div>
+              <div class="course-card-top">
+                <span class="course-number">04</span>
+                <div class="course-badges">
+                  <span class="course-tag">INNOVATION</span>
+                  <span class="course-sem-badge">SEM 01</span>
+                </div>
+              </div>
+              <div class="course-body">
+                <div class="course-body-header">
+                  <div class="course-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                  <h3 class="course-title">Pembelajaran Kreatif Inovatif</h3>
+                </div>
+                <p class="course-desc">Mengembangkan kemampuan dalam merancang pembelajaran yang kreatif, inovatif, dan menarik.</p>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <a href="refleksi1.html" class="course-footer-link">
+                <span>Refleksi Semester 1</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- 05: Pola Berpikir Bertumbuh -->
+          <div class="course-card reveal-cascade delay-2" data-semester="1">
+            <div>
+              <div class="course-card-top">
+                <span class="course-number">05</span>
+                <div class="course-badges">
+                  <span class="course-tag">MINDSET</span>
+                  <span class="course-sem-badge">SEM 01</span>
+                </div>
+              </div>
+              <div class="course-body">
+                <div class="course-body-header">
+                  <div class="course-icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
+                  <h3 class="course-title">Pola Berpikir Bertumbuh</h3>
+                </div>
+                <p class="course-desc">Membangun pola pikir bertumbuh dalam menghadapi proses belajar, tantangan, dan kesalahan.</p>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <a href="refleksi1.html" class="course-footer-link">
+                <span>Refleksi Semester 1</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- 06: PPL Terbimbing -->
+          <div class="course-card reveal-cascade delay-3" data-semester="1">
+            <div>
+              <div class="course-card-top">
+                <span class="course-number">06</span>
+                <div class="course-badges">
+                  <span class="course-tag">PRACTICE</span>
+                  <span class="course-sem-badge">SEM 01</span>
+                </div>
+              </div>
+              <div class="course-body">
+                <div class="course-body-header">
+                  <div class="course-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+                  <h3 class="course-title">PPL Terbimbing</h3>
+                </div>
+                <p class="course-desc">Memperoleh pengalaman awal dalam melaksanakan praktik pembelajaran dengan bimbingan dan evaluasi.</p>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <a href="refleksi1.html" class="course-footer-link">
+                <span>Refleksi Semester 1</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- SEMESTER 02 -->
+          <!-- 07: Pembelajaran Sosial Emosional -->
+          <div class="course-card reveal-cascade delay-1" data-semester="2">
+            <div>
+              <div class="course-card-top">
+                <span class="course-number">07</span>
+                <div class="course-badges">
+                  <span class="course-tag">EMOTIONAL</span>
+                  <span class="course-sem-badge">SEM 02</span>
+                </div>
+              </div>
+              <div class="course-body">
+                <div class="course-body-header">
+                  <div class="course-icon"><i class="fa-solid fa-heart-circle-check"></i></div>
+                  <h3 class="course-title">Pembelajaran Sosial Emosional</h3>
+                </div>
+                <p class="course-desc">Memahami pentingnya pengembangan kompetensi sosial dan emosional dalam menciptakan lingkungan yang positif.</p>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <a href="refleksi2.html" class="course-footer-link">
+                <span>Refleksi Semester 2</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- 08: Pembelajaran Mendalam dan Asesmen Lanjut -->
+          <div class="course-card reveal-cascade delay-2" data-semester="2">
+            <div>
+              <div class="course-card-top">
+                <span class="course-number">08</span>
+                <div class="course-badges">
+                  <span class="course-tag">ADVANCED</span>
+                  <span class="course-sem-badge">SEM 02</span>
+                </div>
+              </div>
+              <div class="course-body">
+                <div class="course-body-header">
+                  <div class="course-icon"><i class="fa-solid fa-chart-line"></i></div>
+                  <h3 class="course-title">Pembelajaran Mendalam dan Asesmen Lanjut</h3>
+                </div>
+                <p class="course-desc">Memperdalam penerapan pembelajaran mendalam dan asesmen untuk mendukung proses pembelajaran yang bermakna.</p>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <a href="refleksi2.html" class="course-footer-link">
+                <span>Refleksi Semester 2</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- 09: Projek Kepemimpinan -->
+          <div class="course-card reveal-cascade delay-3" data-semester="2">
+            <div>
+              <div class="course-card-top">
+                <span class="course-number">09</span>
+                <div class="course-badges">
+                  <span class="course-tag">LEADERSHIP</span>
+                  <span class="course-sem-badge">SEM 02</span>
+                </div>
+              </div>
+              <div class="course-body">
+                <div class="course-body-header">
+                  <div class="course-icon"><i class="fa-solid fa-flag"></i></div>
+                  <h3 class="course-title">Projek Kepemimpinan</h3>
+                </div>
+                <p class="course-desc">Mengembangkan kemampuan kepemimpinan melalui perencanaan dan kolaborasi menyelesaikan permasalahan nyata.</p>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <a href="refleksi2.html" class="course-footer-link">
+                <span>Refleksi Semester 2</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- 10: Pengembangan Keprofesian Berkelanjutan -->
+          <div class="course-card reveal-cascade delay-1" data-semester="2">
+            <div>
+              <div class="course-card-top">
+                <span class="course-number">10</span>
+                <div class="course-badges">
+                  <span class="course-tag">PROFESSIONAL</span>
+                  <span class="course-sem-badge">SEM 02</span>
+                </div>
+              </div>
+              <div class="course-body">
+                <div class="course-body-header">
+                  <div class="course-icon"><i class="fa-solid fa-award"></i></div>
+                  <h3 class="course-title">Pengembangan Keprofesian Berkelanjutan</h3>
+                </div>
+                <p class="course-desc">Memahami pentingnya pengembangan kompetensi secara berkelanjutan melalui refleksi dan pembelajaran profesional.</p>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <a href="refleksi2.html" class="course-footer-link">
+                <span>Refleksi Semester 2</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- 11: PPL Mandiri -->
+          <div class="course-card reveal-cascade delay-2" data-semester="2">
+            <div>
+              <div class="course-card-top">
+                <span class="course-number">11</span>
+                <div class="course-badges">
+                  <span class="course-tag">PRACTICE</span>
+                  <span class="course-sem-badge">SEM 02</span>
+                </div>
+              </div>
+              <div class="course-body">
+                <div class="course-body-header">
+                  <div class="course-icon"><i class="fa-solid fa-medal"></i></div>
+                  <h3 class="course-title">PPL Mandiri</h3>
+                </div>
+                <p class="course-desc">Mengimplementasikan kompetensi secara mandiri mulai dari perencanaan, pelaksanaan, hingga refleksi.</p>
+              </div>
+            </div>
+            <div class="course-card-footer">
+              <a href="refleksi2.html" class="course-footer-link">
+                <span>Refleksi Semester 2</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           6. REFLECTION & TESTIMONIAL QUOTE (Deep Navy Surface)
+           ========================================================================== -->
+      <section class="reflection-section reveal-cascade" id="reflection">
+        <div class="reflection-content">
+          <div class="badge-pill badge-pill-dark"><i class="fa-solid fa-quote-left"></i> REFLEKSI FILOSOFIS PENDIDIK</div>
+          <div class="quote-icon">
+            <i class="fa-solid fa-quote-right"></i>
+          </div>
+          <blockquote class="reflection-quote">
+            "Menjadi pendidik PJOK bukan sekadar melatih fisik dan keterampilan gerak olah tubuh, melainkan menyalakan sportivitas, ketahanan mental, literasi gerak sepanjang hayat, serta menumbuhkan budi pekerti luhur bagi setiap peserta didik."
+          </blockquote>
+          <div class="reflection-author">
+            <img src="images/Pas Foto.jpeg" alt="Muhammad Layyinul Mushthofa, S.Pd" class="author-avatar" />
+            <div class="author-info">
+              <div class="author-name">Muhammad Layyinul Mushthofa, S.Pd</div>
+              <div class="author-role">PPG Calon Guru PJOK &bull; UNY 2026</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           6. FOOTER (Deep Navy Closing)
+           ========================================================================== -->
+      <footer class="site-footer reveal-cascade">
+        <div class="footer-grid">
+          <!-- Col 1: Brand Info -->
+          <div class="footer-col-brand">
+            <div class="footer-brand">
+              <img src="images/Logo Uny outlitne.png" alt="Logo UNY" class="brand-logo-img" />
+              <div>
+                <span class="footer-brand-name">Muhammad Layyinul Mushthofa, S.Pd</span>
+                <span class="footer-brand-sub">PPG Calon Guru &bull; Universitas Negeri Yogyakarta</span>
+              </div>
+            </div>
+            <p class="footer-brand-desc">E-Portfolio Seminar Pendidikan yang mendokumentasikan refleksi filosofis, penguasaan kompetensi pedagogik, serta karya inovasi pembelajaran PJOK abad ke-21.</p>
+            <div class="footer-social-icons">
+              <a href="https://e-protofolio-ppg-layyinul.vercel.app/" target="_blank" title="E-Portfolio PPL Vercel" aria-label="Vercel">
+                <i class="fa-solid fa-globe"></i>
+              </a>
+              <a href="mailto:layyinulmushthofa@gmail.com" title="Email Kontak" aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank" title="Instagram" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/" target="_blank" title="LinkedIn" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Col 2: Navigasi Cepat -->
+          <div class="footer-col-nav">
+            <h4 class="footer-heading">Navigasi Halaman</h4>
+            <ul class="footer-menu-list">
+              <li>
+                <a href="index.html"><i class="fa-solid fa-angle-right"></i> Beranda</a>
+              </li>
+              <li>
+                <a href="visi.html"><i class="fa-solid fa-angle-right"></i> Visi Pribadi Guru</a>
+              </li>
+              <li>
+                <a href="refleksi1.html"><i class="fa-solid fa-angle-right"></i> Refleksi Semester 1</a>
+              </li>
+              <li>
+                <a href="refleksi2.html"><i class="fa-solid fa-angle-right"></i> Refleksi Semester 2</a>
+              </li>
+              <li>
+                <a href="karya.html"><i class="fa-solid fa-angle-right"></i> Karya Inovasi &amp; Artefak</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Col 3: Tautan Eksternal & Lembaga -->
+          <div class="footer-col-nav">
+            <h4 class="footer-heading">Tautan Resmi</h4>
+            <ul class="footer-menu-list">
+              <li>
+                <a href="https://e-protofolio-ppg-layyinul.vercel.app/" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i> E-Portofolio PPL Vercel </a>
+              </li>
+              <li>
+                <a href="https://www.uny.ac.id/" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i> Universitas Negeri Yogyakarta </a>
+              </li>
+              <li>
+                <a href="https://ppg.kemdikbud.go.id/" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i> Direktorat PPG Kemendikbud </a>
+              </li>
+              <li>
+                <a href="https://guru.kemdikbud.go.id/" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i> Platform Merdeka Mengajar (PMM) </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 Muhammad Layyinul Mushthofa, S.Pd. Universitas Negeri Yogyakarta. Hak Cipta Dilindungi.</p>
+          <a
+            href="#"
+            onclick="
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+              return false;
+            "
+            class="footer-back-to-top"
+            title="Kembali ke atas"
+          >
+            <span>Kembali ke Atas</span>
+            <i class="fa-solid fa-arrow-up"></i>
+          </a>
+        </div>
+      </footer>
+    </div>
+
+    <!-- ==========================================================================
+         INTERACTIVE SCRIPTS: PARALLAX, COUNT UP, DRAG CAROUSEL & SCROLL REVEAL
+         ========================================================================== -->
+    <script>
+      // 1. SIDE SCROLL PROGRESS BAR
+      const progressBar = document.getElementById("sideProgressBar");
+      window.addEventListener("scroll", () => {
+        const scrollTop = window.scrollY || document.documentElement.scrollTop;
+        const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const progress = (scrollTop / scrollHeight) * 100;
+        if (progressBar) {
+          progressBar.style.height = progress + "%";
+        }
+      });
+
+      // 2. 3D PARALLAX & TILT ON HERO
+      const heroContainer = document.getElementById("home");
+      const heroPersonWrap = document.getElementById("heroPersonWrap");
+      const heroWatermark = document.getElementById("heroWatermark");
+
+      if (heroContainer && heroPersonWrap && heroWatermark) {
+        heroContainer.addEventListener("mousemove", (e) => {
+          const rect = heroContainer.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+          const centerX = rect.width / 2;
+          const centerY = rect.height / 2;
+
+          // Normalized offset (-1 to 1)
+          const deltaX = (x - centerX) / centerX;
+          const deltaY = (y - centerY) / centerY;
+
+          // 3D Tilt for portrait
+          const rotateY = deltaX * 12; // deg
+          const rotateX = -deltaY * 8; // deg
+          heroPersonWrap.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(10px)`;
+
+          // Independent parallax shift for watermark scales of justice
+          const moveX = deltaX * -35;
+          const moveY = deltaY * -25;
+          heroWatermark.style.transform = `translateX(calc(-50% + ${moveX}px)) translateY(${moveY}px) scale(1.02)`;
+        });
+
+        heroContainer.addEventListener("mouseleave", () => {
+          heroPersonWrap.style.transform = "perspective(1000px) rotateX(0deg) rotateY(0deg) translateZ(0)";
+          heroWatermark.style.transform = "translateX(-50%) translateY(0) scale(1)";
+        });
+      }
+
+      // 3. STAT COUNTER: ROLLING COUNT UP ANIMATION
+      const counters = document.querySelectorAll(".counter-number");
+      let countStarted = false;
+
+      function startCountUp() {
+        if (countStarted) return;
+        countStarted = true;
+
+        counters.forEach((counter) => {
+          const target = +counter.getAttribute("data-target");
+          const duration = 1800; // ms
+          const startTime = performance.now();
+          const parentNumber = counter.closest(".stat-number");
+          if (parentNumber) parentNumber.classList.add("counting");
+
+          function updateCounter(currentTime) {
+            const elapsed = currentTime - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+
+            // Ease out quad
+            const easeOut = 1 - (1 - progress) * (1 - progress);
+            const currentVal = Math.floor(easeOut * target);
+
+            counter.innerText = currentVal;
+
+            if (progress < 1) {
+              requestAnimationFrame(updateCounter);
+            } else {
+              counter.innerText = target;
+              if (parentNumber) {
+                setTimeout(() => parentNumber.classList.remove("counting"), 400);
+              }
+            }
+          }
+
+          requestAnimationFrame(updateCounter);
+        });
+      }
+
+      // Trigger Count Up when Stats section enters viewport
+      const statsSection = document.getElementById("statsBar");
+      if (statsSection) {
+        const statsObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                startCountUp();
+                statsObserver.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.3 },
+        );
+
+        statsObserver.observe(statsSection);
+      }
+
+      // 4. CAROUSEL DRAG & ARROWS INTERACTION
+      const cardsGrid = document.getElementById("servicesGrid");
+      const prevBtn = document.getElementById("prevCardBtn");
+      const nextBtn = document.getElementById("nextCardBtn");
+
+      let isDown = false;
+      let startX;
+      let scrollLeft;
+
+      if (cardsGrid) {
+        cardsGrid.addEventListener("mousedown", (e) => {
+          isDown = true;
+          cardsGrid.classList.add("is-dragging");
+          startX = e.pageX - cardsGrid.offsetLeft;
+          scrollLeft = cardsGrid.scrollLeft;
+        });
+
+        cardsGrid.addEventListener("mouseleave", () => {
+          isDown = false;
+          cardsGrid.classList.remove("is-dragging");
+        });
+
+        cardsGrid.addEventListener("mouseup", () => {
+          isDown = false;
+          cardsGrid.classList.remove("is-dragging");
+        });
+
+        cardsGrid.addEventListener("mousemove", (e) => {
+          if (!isDown) return;
+          e.preventDefault();
+          const x = e.pageX - cardsGrid.offsetLeft;
+          const walk = (x - startX) * 1.5; // Drag sensitivity
+          cardsGrid.scrollLeft = scrollLeft - walk;
+        });
+
+        // Prev & Next Button Controls
+        if (prevBtn && nextBtn) {
+          nextBtn.addEventListener("click", () => {
+            cardsGrid.scrollBy({ left: 340, behavior: "smooth" });
+          });
+          prevBtn.addEventListener("click", () => {
+            cardsGrid.scrollBy({ left: -340, behavior: "smooth" });
+          });
+        }
+      }
+
+      // 5. CASCADE REVEAL TRANSITIONS ON SCROLL
+      const revealElements = document.querySelectorAll(".reveal-cascade");
+      const revealObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("revealed");
+            }
+          });
+        },
+        {
+          threshold: 0.15,
+          rootMargin: "0px 0px -40px 0px",
+        },
+      );
+
+      revealElements.forEach((el) => revealObserver.observe(el));
+
+      // 6. MOBILE MENU DRAWER
+      const mobileToggle = document.getElementById("mobileMenuToggle");
+      const mobileDrawer = document.getElementById("mobileDrawer");
+
+      if (mobileToggle && mobileDrawer) {
+        mobileToggle.addEventListener("click", () => {
+          mobileDrawer.classList.toggle("show");
+        });
+      }
+
+      function closeMobileMenu() {
+        if (mobileDrawer) {
+          mobileDrawer.classList.remove("show");
+        }
+      }
+
+      // 7. ACTIVE NAVIGATION ON SCROLL
+      const navLinks = document.querySelectorAll(".nav-link");
+      window.addEventListener("scroll", () => {
+        let fromTop = window.scrollY + 120;
+        navLinks.forEach((link) => {
+          if (link.hash) {
+            let section = document.querySelector(link.hash);
+            if (section && section.offsetTop <= fromTop && section.offsetTop + section.offsetHeight > fromTop) {
+              link.classList.add("active");
+            } else {
+              link.classList.remove("active");
+            }
+          }
+        });
+      });
+
+      // 8. INTERACTIVE FILTER TABS FOR COURSES (SEM 1 & SEM 2)
+      const courseTabBtns = document.querySelectorAll(".course-tab-btn");
+      const courseCards = document.querySelectorAll(".course-card");
+
+      courseTabBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          courseTabBtns.forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+
+          const targetSem = btn.getAttribute("data-target-semester");
+          courseCards.forEach((card) => {
+            const cardSem = card.getAttribute("data-semester");
+            if (targetSem === "all" || targetSem === cardSem) {
+              card.style.display = "flex";
+              card.style.opacity = "1";
+              card.style.transform = "translateY(0)";
+            } else {
+              card.style.display = "none";
+            }
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
+
