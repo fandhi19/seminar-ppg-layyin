@@ -3372,3 +3372,179 @@ img {
   border-color: var(--gold-primary);
   transform: translateY(-2px);
 }
+
+
+/* ==========================================================================
+   CARDIOFIT CIRCUIT & LK 4 KARYA INOVATIF STYLES
+   ========================================================================== */
+.cardiofit-hero-box {
+  background: linear-gradient(145deg, #0d1726 0%, #070d16 100%);
+  border-radius: var(--radius-container);
+  border: 1px solid rgba(212, 160, 60, 0.3);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+  padding: 44px 32px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+@media (min-width: 992px) {
+  .cardiofit-hero-box {
+    padding: 54px 48px;
+  }
+}
+
+.cardiofit-badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.cardiofit-title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.8rem, 2.8vw, 2.5rem);
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.cardiofit-subtitle {
+  font-size: 1.05rem;
+  color: var(--gold-primary);
+  font-weight: 600;
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+.cardiofit-desc {
+  font-size: 0.96rem;
+  color: var(--text-muted-dark);
+  line-height: 1.65;
+  max-width: 860px;
+  margin-bottom: 24px;
+}
+
+.cardiofit-stations-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+@media (min-width: 640px) {
+  .cardiofit-stations-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .cardiofit-stations-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.station-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 20px 16px;
+  text-align: center;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.station-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--gold-primary);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+}
+
+.station-num-pill {
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  background: rgba(212, 160, 60, 0.15);
+  color: var(--gold-primary);
+  margin-bottom: 12px;
+  border: 1px solid rgba(212, 160, 60, 0.3);
+}
+
+.station-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(212, 160, 60, 0.12);
+  color: var(--gold-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+
+.station-title {
+  font-family: var(--font-heading);
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.station-desc {
+  font-size: 0.82rem;
+  color: var(--text-muted-dark);
+  line-height: 1.45;
+  margin: 0;
+}
+
+/* Research References Card */
+.research-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+  margin-top: 18px;
+}
+
+@media (min-width: 768px) {
+  .research-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.research-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 22px 20px;
+  border-left: 4px solid var(--gold-primary);
+  transition: all 0.25s ease;
+}
+
+.research-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+.research-author {
+  font-family: var(--font-heading);
+  font-size: 0.98rem;
+  font-weight: 800;
+  color: var(--navy-darkest);
+  margin-bottom: 6px;
+}
+
+.research-finding {
+  font-size: 0.88rem;
+  color: #475569;
+  line-height: 1.55;
+  margin: 0;
+}
